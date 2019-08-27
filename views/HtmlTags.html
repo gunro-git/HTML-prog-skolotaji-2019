@@ -46,31 +46,73 @@
     
         <div id="wrap" >
             <div id="main">
-                <h1>HTML elementi</h1>
-                <p>Šodien mēs iemācījāmies kas ir HTML elementi un kā ar tiem darboties. <br>
-                Vairāk informācijas par visiem HTML elementiem mēs varam atrast
-            <a href="httpa://www.w3schools.com/html/default.asp">w3schools</a> mājas lapā.</p>
-            <p>Mēs jau esam paspējuši apskatīt tādus elementus kā:<br>
-            <ul>
-                <li>Konteiners "< div >"</li>
-                <li>Virsraksts "< h1 >"</li>
-                <li>Rindkopa "< p >"</li>
-                <li>Atribūts "< a >"</li>
-                <li>Rindas atdalītājs "< br >"</li>
-            </ul>
-            Tagad apskatīsim vēl šos elementus:
-            <ol>
-                <li>Nenumurēts saraksts "< ul >"</li>
-                <li>Numurēts saraksts "< ol >"</li>
-                <li>Saraksta objekts "< li >"</li>
-                <li>Attēls "< img >"</li> 
-                <img src="../images/Start(IT)Logo.png" alt="Start(it)"  width="104"> 
-                <li>Poga " < button> "</li>  
-                <button>Uzspied</button>
-            </ol>
-            
-            </p>
+                <h1 class="text-center">HTML elementi</h1>
+                <p class="text-center">Šodien mēs iemācījāmies kas ir HTML elementi un kā ar tiem darboties. <br><p>
+                <div class="row">
+                    <div class="col-xs-2"></div>
+                    <div class="col-xs-4">
+                    <p>Mēs jau esam paspējuši apskatīt tādus elementus kā:<br>
+                    <ul>
+                        <li>Konteiners "< div >"</li>
+                        <li>Virsraksts "< h1 >"</li>
+                        <li>Rindkopa "< p >"</li>
+                        <li>Atribūts "< a >"</li>
+                        <li>Rindas atdalītājs "< br >"</li>
+                    </ul>
+                    </div>
                 
+            
+                    <div class="col-xs-4">
+                    Tagad apskatīsim vēl šos elementus:
+                    <ol>
+                        <li>Nenumurēts saraksts "< ul >"</li>
+                        <li>Numurēts saraksts "< ol >"</li>
+                        <li>Saraksta objekts "< li >"</li>
+                        <li>Attēls "< img >"</li> 
+                        <img src="../images/Start(IT)Logo.png" alt="Start(it)"  width="104"> 
+                        <li>Poga " < button> "</li>  
+                        <button>Uzspied</button>
+                    </ol>
+                    </div>
+                    <div class="col-xs-2"></div>
+                </div>
+                <p class="text-center">Vairāk informācijas par visiem HTML elementiem mēs varam atrast
+                <a href="httpa://www.w3schools.com/html/default.asp">w3schools</a> mājas lapā.</p>
+            <div id="papildus">
+                <h1 class="text-center">Apmācību plāns 1.dienai</h1>
+                <p class="text-center">Parādīsim tabulā informāciju par to, kāds ir bijis šodienas grafiks<br>
+                Veidosim tabulu, lai iepazītos ar to kā mēs varam veidot tabulu</p>
+                <p class=text-center>Galvenie punkti, kas tiek šodien apskatīti:</p>
+                <div class="col-xs-2 col-sm-4 col-md-5"></div>
+                <div class="col-xs-4">
+                    <ul class="d-flex justify-content-center">
+                        <li class="list-group-item list-group-item-action list-group-item-success">Projektu izstrādes metodoloģijas</li>
+                        <li class="list-group-item list-group-item-action list-group-item-danger">Git</li>
+                        <li class="list-group-item list-group-item-action list-group-item-warning">Vscode</li>
+                        <li class="list-group-item list-group-item-action list-group-item-info">Plānošanas rīki</li>
+                        <li class="list-group-item list-group-item-action list-group-item-success">Pusdienas</li>
+                        <li class="list-group-item list-group-item-action list-group-item-danger">HTML teorijsa</li>
+                        <li class="list-group-item list-group-item-action list-group-item-warning">HTML uzdevumi</li>
+                        <li class="list-group-item list-group-item-action list-group-item-info">Refleksija</li>
+                        <li class="list-group-item list-group-item-action list-group-item-success">Lektors no IT jomas</li>
+                    </ul>
+                </div>
+                <div class="col-xs-2 col-sm-4"></div>
+            </div>
+            <div class="col-xs-1 col-sm-2 col-md-3"></div>
+                <table class="table table-striped">
+                    <tr><td>Projektu izstrādes metodoloģijas</td><td>Plānotais laiks</td><td>Reālais laiks</td><td>Laiks palika pāri vai trūka?</td></tr>
+                    <tr><td>Git</td><td></td><td></td><td></td></tr>
+                    <tr><td>Vscode</td><td></td><td></td><td></td></tr>
+                    <tr><td>Plānošanas rīki</td><td></td><td></td><td></td></tr>
+                    <tr><td>Plānošanas rīki</td><td></td><td></td><td></td></tr>
+                    <tr><td>Pusdienas</td><td></td><td></td><td></td></tr>
+                    <tr><td>HTML teorijsa</td><td></td><td></td><td></td></tr>
+                    <tr><td>HTML uzdevumi</td><td></td><td></td><td></td></tr>
+                    <tr><td>Refleksija</td><td></td><td></td><td></td></tr>
+                    <tr><td>Lektors no IT jomas</td><td></td><td></td><td></td></tr>
+                </table>
+            </div> 
             </div>
         </div>
     </body>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="lv-LV">
+
+<head>
+        <title>Start(it)</title>
+        <link rel="stylesheet" href="..\css/bootstrap.min.css" media="screen" title="no title" charset="utf-8">
+        <link rel="stylesheet" href="..\css/custom.css" media="screen" title="no title" charset="utf-8">
+        <link rel="icon" href="..\images\Start(IT)SmallLogo.png">
+</head>
+<body>
+        <a class="navbar-brand" href="..\index.html"><img src="..\images\Start(IT)Logo.png" alt="Start(IT)"></a> <br>
+    <div id="main">
+            <h1>Šie ir daži svarīgākie selektori</h1>
+            <ul id="CssSelectorList">
+                <li class="oddListItems">".class" Izmantojot "." tiek piekļūts klasei, kas ir pieejama lapā</li>
+                <li class="oddListItems">".class1.class2" Piekļūst objektam klasē, kuram ir gan "class1"gan "class2" kā klase</li>
+                <li class="oddListItems">"#id" tiek piekļūts elementam ar norādīto ID, kas ir lapā</li>
+                <li class="oddListItems">"*" var piekļūt visiem elementiem lapā</li>
+                <li class="oddListItems">"p" piekļūst visiem p elementiem, kas ir lapā</li>
+                <li class="oddListItems">"div.p" Piekļūst visiem "<div>" un "<p>" elementiem, kas ir lapā</li>
+                <li class="oddListItems">"div p" Piekļūst visiem "<p>" elementiem, kas ir iekš "div>" elementa, kas ir lapā</li>
+                <li class="oddListItems">"div>p" Piekļūst visiem "<p>" elementiem, kuriem tiešais vecāka elements ir "div>"</li>
+                <li class="oddListItems">"div+p" Piekļūst visiem "<p>" elementiem, kuri ir uzreiz aiz "div>" elementa</li>
+                <li class="oddListItems">".not(p)" Atlasa visus elementus, kas nav " <p>"</li>
+                <li class="oddListItems">"p:first-chlid" Atlasa visus " <p> "elementus, kas ir pirmie pēcnācēji vecāku elementiem</li>
+                <li class="oddListItems">"p:nth-child(2)" Atlasa visus " <p> " elementus, kas ir otrie pēcnācēji vecāku elementiem</li>
+                <li class="hoverClass">"a:hover" Iezīmē saiti, kad ar peli uzbrauc uz tās</li>
+ 
+
+            </ul>
+            <p>Ir vēl daudz un dažādi selektori. Tos var apskatīt ,<a href= "https://www.w3schools.com/cssref/css_selectors.asp">spiežot šeit</a></p>
+            <p>Ja ir vēlme r patestēt un paskatīties, kuri elementi tiek izvēlēti ar kuru selektoru, tad <a href= "https://www.w3schools.com/cssref/trysel.asp">spiediet šeit</a></p>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script type="text/javascript" src="..\javaScript/bootstrap.min.js"></script>
+    <script type="text/javascript" src="..\javaScript/custom.js"></script>
+    </body>
+</html>
